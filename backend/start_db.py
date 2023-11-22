@@ -4,7 +4,7 @@ from pymysql.constants import CLIENT
 
 # Connect to the MySQL Server
 connection = pymysql.connect(
-    host='localhost',
+    host='db',
     user='root',
     password='admin',
     charset='utf8mb4',

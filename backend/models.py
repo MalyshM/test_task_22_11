@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 def connect_db():
     connection = pymysql.connect(
-        host='localhost',
+        host='db',
         user='root',
         password='admin',
         charset='utf8mb4',
